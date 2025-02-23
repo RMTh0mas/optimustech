@@ -1,0 +1,119 @@
+.cabecalho {
+    padding: 2em 7vw;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__menu {
+    margin-left: 5em;
+}
+
+.cabecalho__botoes {
+    margin-left: auto;
+}
+
+.menu__lista, .botoes__lista {
+    display: flex;
+    gap: 2em;
+}
+
+.menu__lista > li > a, .botoes__link {
+    color: var(--cinza);
+    font-weight: var(--peso-fonte-media);
+    font-size: 16px;
+}
+
+.botoes__link:active {
+    text-decoration: underline;
+}
+
+.menu__lista > li > a:hover {
+    color: var(--vermelho);
+}
+
+.preenchido {
+    background-color: var(--vermelho);
+    padding: 0.8em 1.5em;
+    color: var(--branco);
+    border-radius: 0.5em;
+}
+
+.preenchido:active {
+    background-color: var(--branco);
+    color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    padding: 6vw 0;
+}
+
+.sobre__descricao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2em;
+    padding: 0 25vw 8vw 25vw;
+
+}
+
+.sobre__titulo {
+    font-weight: var(--peso-fonte-semi-bold);
+    font-size: 48px;
+    color: var(--preto);
+}
+
+.sobre__subtitulo {
+    font-weight: var(--peso-fonte-semi-bold);
+    font-size: 16px;
+    color: var(--vermelho);
+}
+
+.sobre__texto {
+    color: var(--cinza);
+    font-weight: var(--peso-fonte-regular);
+    font-size: 20px;
+}
+
+.sobre__lista {
+    display: flex; 
+    padding: 0 7vw;
+    justify-content: space-between;
+}
+
+.sobre__item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 18vw;
+}
+
+.item__destaque {
+    font-weight: var(--peso-fonte-semi-bold);
+    font-size: 60px;
+    color: var(--vermelho);
+}
+
+.item__titulo {
+    font-weight: var(--peso-fonte-media);
+    font-size: 18px;
+    color: var(--preto);
+}
+
+.item__texto {
+    font-size: 16px;
+    font-weight: var(--peso-fonte-regular);
+    color: var(--cinza);
+    text-align: justify;
+}
